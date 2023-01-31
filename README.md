@@ -53,8 +53,8 @@ ORDER BY "backers_count" DESC;
 ```
 This query ran successfully and confirmed the original results. You can see the results from both queries below:
 
-![backer_counts1]()
-![backer_counts2]()
+![backer_counts1](https://github.com/ChallahBack83/Crowdfunding-ETL/blob/main/backer_count.png)
+![backer_counts2](https://github.com/ChallahBack83/Crowdfunding-ETL/blob/main/backer_count_confirm.png)
 
 Lastly, I created two new tables to export as contact lists for live campaigns.  The first is a table with the contact information for each live campaign which includes the remaining goal amount.  The query:
 ```
